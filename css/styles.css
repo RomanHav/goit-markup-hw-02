@@ -1,31 +1,40 @@
 .navigation .logo-first {
     text-transform: uppercase;
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 116.667%;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-decoration: none;
 }
 .logo-part {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 .navigation .nav-link {
     color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02px;
     text-decoration: none;
 } 
 .nav-link:hover, 
-.nav-link:active {
+.nav-link:active,
+.nav-link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
-.address-link{
+.contacts {
+    font-style: normal
+}
+.contact-link{
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02px;
     text-decoration: none;
 }
-.address-link:hover,
-.address-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
@@ -48,12 +57,18 @@ body {
     letter-spacing: 1.12px;
 }
 .title-part .click {
+    font-family: "Roboto", sans-serif;
     color: #FFF;
     background-color: #4D5AE5;
     font-size: 16px;
+    font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.64px;
     cursor: pointer
+}
+.click:hover,
+.click:focus {
+    background-color: #404BBF;
 }
 .subtitle {
     text-align: center;
