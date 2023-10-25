@@ -15,7 +15,7 @@
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.32px;
     text-decoration: none;
 } 
 .nav-link:hover, 
@@ -30,7 +30,7 @@
 .contact-link{
     color: #434455;
     line-height: 1.5;
-    letter-spacing: 0.02pm;
+    letter-spacing: 0.32px;
     text-decoration: none;
 }
 .contact-link:hover,
@@ -98,17 +98,28 @@ body {
     background-color: #FFFFFF;
 }
 .our-team-part .parts-title {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .our-team-part .description {
+    letter-spacing: 0.32px;
     text-align: center;
-    line-height: 1.5;
-    letter-spacing: 0.02px
 }
-.portfolio-list .parts-title {
+
+
+/* Our portfolio */
+
+
+.part-list > .parts-title {
     line-height: 1.5;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.4px;
 }
+
+
+/* Footer */
+
+
 .lower-part{
    background-color: #2E2F42; 
 }
@@ -118,5 +129,5 @@ body {
 .lower-part .description {
     color: #F4F4FD;
     line-height: 1.5;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
 }
