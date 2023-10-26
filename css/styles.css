@@ -104,6 +104,7 @@ body {
 }
 .our-team-part .description {
     letter-spacing: 0.32px;
+    line-height: 1.5;
     text-align: center;
 }
 
