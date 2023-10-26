@@ -81,7 +81,7 @@ body {
 .parts-title {
     color: #2e2f42;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.4px;
 }
@@ -102,7 +102,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.our-team-part .description {
+.our-team-part .list-description {
     letter-spacing: 0.32px;
     line-height: 1.5;
     text-align: center;
@@ -116,6 +116,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.4px;
 }
+
 
 
 /* Footer */
